@@ -1,0 +1,35 @@
+{
+    "name": "nativeweb-agency/yii2-sortablejs",
+    "description": "Yii2 SortableJS Asset Bundle",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Brusensky",
+            "email": "brussens@nativeweb.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "yiisoft/yii2": "~2.0.38",
+        "npm-asset/jquery-sortablejs": "^1.6"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NativeWeb\\Assets\\SortableJS": "src/"
+        }
+    }
+}
