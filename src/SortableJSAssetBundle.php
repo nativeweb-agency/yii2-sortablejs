@@ -9,10 +9,10 @@ namespace NativeWeb\Assets\SortableJS;
 use yii\web\AssetBundle;
 
 /**
- * Class SortableJSAsset
+ * Class SortableJSAssetBundle
  * @package NativeWeb\Assets\SortableJS
  */
-class SortableJSAsset extends AssetBundle
+class SortableJSAssetBundle extends AssetBundle
 {
     /**
      * @var string
